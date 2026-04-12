@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+}
+.box{
+    background-color: aliceblue;
+            height: 200px;
+            width: 200px;
+            margin: 10px;
+            border: 3px dotted;
+    border-color: red;
+
+        }
+#button1{
+    background-color: aquamarine;
+    padding: 10px 15px;
+    margin: 100px;
+    border: 3px dotted;
+    border-color: red;
+    border-radius: 100px;
+    width: 200px;
+    height: 200px;
+    font-size: larger;
+}
+#button2{
+    background-color: burlywood;
+    margin: 100px;
+    width: 200px;
+}
