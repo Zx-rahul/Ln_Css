@@ -1,0 +1,71 @@
+#button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.progress_container{
+    height: 30px;
+    width: 90%;
+    background-color: #dff4f0;
+    border: black solid 2px;
+    border-radius: 20px;
+    position: relative;
+    left: 4.5%;
+    transition: all 3s ease-in-out;
+}
+.progress_bar{
+    height: 100%;
+    background-color: #59d4ed;
+    border-radius: 20px;
+    animation: animate_progress1 3s ease-in-out;
+    animation: animate_progress2 3s ease-in-out 5s;
+}
+
+@keyframes animate_progress1 {
+   0%{
+    width: 0%;
+   }
+   60%{
+    width: 90%;
+   }
+    100%{
+    width: 60%;
+   }
+}
+@keyframes animate_progress2 {
+    0%{
+    width: 70%;
+   }
+   100%{
+    width: 100%;
+}
+}
+
+.btn{
+    background-color: #29f130; /* Green */
+    border: black solid 2px;
+    height: 30px;
+    width: 100px;
+    border-radius: 20px;
+    transition: all 3s ease-in-out;
+
+}
+.btn:hover{
+    background-color: #29f130;
+    color: white;
+    height: 70px;
+    width: 150px;
+    border-radius: 20px;
+    border: black dashed 2px;
+    cursor: pointer;
+}
+.btn:active{
+    background-color: red;
+    color: white;
+    height: 70px;
+    width: 150px;
+    border-radius: 20px;
+    border: black dotted 2px;
+}
